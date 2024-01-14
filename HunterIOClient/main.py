@@ -1,4 +1,4 @@
-"""Test task client for hunter.io and service."""
+"""Test task"""
 
 import logging
 from typing import Any, Dict, List, Optional
