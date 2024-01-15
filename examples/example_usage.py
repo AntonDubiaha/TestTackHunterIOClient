@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 if __name__ == '__main__':
-    api_key: str = 'bc335c96bc32cc811d2838cb57077cc5306f79df'
-    email_to_verify: str = 'anton.dubiagaa@gmail.com'
+    api_key: str = '-'
+    email_to_verify: str = '-'
 
     hunter_client: VerifyClient = VerifyClient(api_key)
     verification_service: EmailVerificationService = EmailVerificationService()
